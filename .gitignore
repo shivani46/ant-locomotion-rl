@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# training outputs (regenerable)
+logs/
+checkpoints/
+videos/
+
+# large model files — keep best_model/ tracked (small enough)
+best_model/final_model.zip
