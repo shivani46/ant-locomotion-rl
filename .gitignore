@@ -9,7 +9,10 @@ env/
 # training outputs (regenerable)
 logs/
 checkpoints/
-videos/
+
+# ignore temp episode clips; track final ant_walking.mp4 and .gif
+videos/ant_ep*.mp4
+videos/_concat.txt
 
 # large model files — keep best_model/ tracked (small enough)
 best_model/final_model.zip
